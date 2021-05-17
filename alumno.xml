@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="alumno.xsd">
+    <persona nacimiento="1999-07-22">
+        <datos>
+            <nombre>Juan</nombre>
+            <apellidos>Martinez Gonzalez</apellidos>
+            <dni>77243457H</dni>
+        </datos>
+        <comentario>No repetidor</comentario>
+        <datos_academicos>
+            <curso>1º DAW</curso>
+            <asignatura>
+                <nombre_asignatura>Lenguaje Marcas</nombre_asignatura>
+                <horas_semanales>4</horas_semanales>
+                <profesor>Paco</profesor>
+            </asignatura>
+        </datos_academicos>
+    </persona>
+</alumno>
